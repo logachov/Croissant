@@ -1,0 +1,35 @@
+body {
+  max-width: 800px;
+  min-height: 100vh;
+  margin: 30px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+  background: rgb(63, 9, 121);
+  background: linear-gradient(
+    -45deg,
+    rgba(63, 9, 121, 0.8) 0%,
+    rgba(0, 74, 255, 0.6) 100%
+  );
+}
+h1 {
+  text-align: center;
+  color: cornsilk;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.home,
+.photos,
+.contact {
+  display: block;
+  width: 80px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  margin: 20px 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: coral;
+  color: darkblue;
+}
